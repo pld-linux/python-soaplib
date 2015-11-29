@@ -14,7 +14,7 @@ Source0:	http://pypi.python.org/packages/source/s/%{module}/%{module}-%{version}
 URL:		http://pypi.python.org/pypi/soaplib
 BuildRequires:	python-distribute
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.228
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires(post,preun):	/sbin/chkconfig
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
